@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Lora", sans-serif;
+  background-color: #eaeaea;
+}
+
+/* Style the search field */
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.dashboard {
+  background-color: #eaeaea;
+  border-bottom: 2px solid black;
+}
+.dashboard .list,
+.search {
+  display: inline-block;
+  margin: 20px;
+}
+
+.dashboard a {
+  padding: 10px;
+  display: inline-block;
+}
+
+.dashboard .search {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #eaeaea;
+  padding: 20px 10px;
+  border-bottom: 2px solid black;
+}
+
+.header .kanan a {
+  float: left;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.kanan {
+  float: right;
+}
+
+.icon {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.header .kanan a:hover {
+  background-color: #53a7eb;
+}
+
+.header a {
+  font-size: 40px;
+  color: #333;
+  font-weight: bold;
+}
+
+.leftbar {
+  width: 30%;
+  background-color: #eaeaea;
+  margin-top: 0;
+  float: left;
+  box-sizing: border-box;
+}
+
+.gap {
+  height: 60px;
+}
+.menubar a {
+  display: block;
+  text-align: left;
+  border: 2px solid black;
+  margin-right: 0;
+  margin-top: 10px;
+  border-right: none;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.menubar {
+  width: 60%;
+  float: right;
+}
+
+.menubar a:hover {
+  background-color: #53a7eb;
+}
+
+.main {
+  display: inline-block;
+  box-sizing: border-box;
+  border-left: 2px solid black;
+  width: 69.999%;
+}
+.judul {
+  margin: 20px;
+}
+.main p {
+  margin: 20px;
+}
+.main a {
+  margin: 20px;
+}
+
+.img img {
+  width: 65%;
+  margin-left: 15%;
+}
+.headermain {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.headermain a {
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+}
+
+.headermain .mainicon {
+  float: right;
+  margin-right: 8%;
+}
+
+.footer {
+  border-top: 2px solid black;
+  box-sizing: border-box;
+}
+
+.copyright p {
+  color: #f1f1f1;
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
